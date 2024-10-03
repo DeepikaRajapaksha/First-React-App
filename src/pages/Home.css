@@ -4,9 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(to right, #000000, #0a3d62) #0a3d62; /* Dark blue background */
-  padding: 2rem;
+  padding: 100px 50px;
   color: white;
 }
 
