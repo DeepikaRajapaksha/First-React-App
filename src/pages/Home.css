@@ -4,9 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+  height: 72vh;
   background: linear-gradient(to right, #000000, #0a3d62) #0a3d62; /* Dark blue background */
-  padding: 100px 50px;
+  padding: 100px 80px;
   color: white;
 }
 
@@ -14,6 +14,7 @@
   flex: 1;
   max-width: 40%; /* Adjust the width of the text section */
   padding: 0 5rem;
+  z-index: 1; /* Ensure content stays above particles */
 }
 
 .home-content h1 {
@@ -41,13 +42,13 @@
 .contact-icon:hover {
   transform: scale(1.2);
   color: #13084f; /* Change color on hover (optional) */
-}npm
+}
 
 .home-image {
   flex: 1;
   display: flex ;
   justify-content: center;
-  
+  z-index: 1; /* Ensure image stays above particles */
 }
 
 .home-image img {
@@ -56,4 +57,13 @@
   border-radius: 70%; /* Optional: This makes the image round */
   box-shadow: 0 4px 8px rgba(49, 48, 48, 0.2);
   padding: 0 10rem;
+}
+
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Ensure particles stay behind content */
 }
