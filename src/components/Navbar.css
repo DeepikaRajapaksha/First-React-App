@@ -5,9 +5,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-  backdrop-filter: blur(5px); /* Optional: Adds a blur effect to the background */
-  position: fixed; /* Fix navbar to the top */
+  background-color: #01022b; /* Semi-transparent black background */
+  position: relative; /* Fix navbar to the top */
   width: 100%;
   top: 0;
   z-index: 1000;

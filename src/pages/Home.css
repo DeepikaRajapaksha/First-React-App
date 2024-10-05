@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72vh;
+  height: 70vh;
   background: linear-gradient(to right, #000000, #0a3d62) #0a3d62; /* Dark blue background */
   padding: 100px 80px;
   color: white;
