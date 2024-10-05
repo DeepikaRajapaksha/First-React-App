@@ -13,6 +13,7 @@ const Home = () => {
   }, []);
 
   return (
+    <div className="home">
     <div className="home-container">
       {/* Add Particles as the background */}
       <Particles
@@ -89,7 +90,35 @@ const Home = () => {
       <div className="home-image">
       <img src="/images/DP.jpg" alt="Deepika Rajapaksha" /> {/* Reference to your image */}
       </div>
+      {/* About Me Section - Positioned after the background */}
     </div>
+
+    {/* About Me Section */}
+    <section className="about-me">
+        <h3>About Me</h3>
+        <p>Hi! I’m Deepika, a web developer with a passion for designing user-friendly and visually appealing interfaces. I have experience in various web technologies and enjoy tackling challenges that require creative solutions.</p>
+        <p>In my free time, I love to explore new technologies, work on personal projects, and contribute to open-source initiatives. I believe in continuous learning and strive to improve my skills every day.</p>
+      </section>
+
+      {/* My Projects Section */}
+      <section className="projects">
+        <h3>My Projects</h3>
+        <p>Here you can describe some of your projects. Mention technologies used, project goals, and your role in each project.</p>
+      </section>
+
+      {/* Contact Section */}
+      <section className="contact">
+        <h3>Contact</h3>
+        <p>If you have any questions or want to collaborate, feel free to reach out!</p>
+      </section>
+
+      {/* Feedback Section */}
+      <section className="feedback">
+        <h3>Feedback</h3>
+        <p>Your feedback is important to me! Please share your thoughts.</p>
+      </section>
+
+  </div>
   );
 };
 
