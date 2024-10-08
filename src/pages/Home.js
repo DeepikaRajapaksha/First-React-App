@@ -74,7 +74,7 @@ const Home = () => {
       
       <div className="home-content">
         <h1>Hello, I'm</h1>
-        <h2>Deepika S Rajapaksha</h2> {/* Name in a separate line */}
+        <h2>Deepika Sewwandi</h2> {/* Name in a separate line */}
         <p>I am a passionate Web Developer and UI/UX Designer dedicated to creating beautiful and functional websites. I love turning ideas into reality with clean and efficient code.</p> {/* Your description */}
 
         {/* Social media and contact links */}
